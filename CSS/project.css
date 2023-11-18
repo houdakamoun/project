@@ -1,0 +1,289 @@
+.menue {
+  z-index: 3;
+  width: 300px;
+
+  font-weight: bold;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Raleway", sans-serif;
+}
+#my-logo {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+nav {
+  background-color: #e94e1b;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  display: flex;
+}
+nav a {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+  justify-content: space-between;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #e94e1b;
+  color: white;
+}
+
+#imghk {
+  width: 30%;
+  height: 50%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.ME {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+section div {
+  text-align: center;
+}
+section {
+  padding: 0 4px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  text-align: center;
+  color: #e94e1b;
+}
+
+.skill label {
+  display: inline-block;
+  width: 120px;
+}
+
+.skill-meter {
+  display: inline-block;
+  width: 200px;
+  height: 20px;
+  background-color: #9d9d9c;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 100%;
+  width: 50px;
+  background-color: #e94e1b;
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+.section3 #servicet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+th {
+  background-color: #e94e1b;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.table-container > div {
+  margin-right: 20px;
+}
+
+td:hover {
+  background-color: #e94e1b;
+  color: white;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulaire {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.text {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  background-color: #e94e1b;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #d1471d;
+}
+
+@media (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+}
+.registration-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.registration-form button {
+  background-color: #d1471d;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer {
+  background-color: #d1471d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-section h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.footer-social {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icon {
+  margin-left: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+#design {
+  padding: 0 4px;
+  padding-bottom: 100px;
+  padding-left: 200px;
+  width: 1000px;
+}
+.error {
+  border-color: red;
+}
+.success {
+  border-color: green;
+}
